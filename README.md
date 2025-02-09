@@ -1,12 +1,14 @@
-
 # Spotify Playlist Organizer
 
-This Python script allows you to reorder tracks in a Spotify playlist based on a custom sorting logic. It uses the Spotify API to fetch the tracks and reorder them. The script sorts the playlist such that numbers come first in ascending order, followed by alphabetical sorting for the rest of the track names.
+This Python script allows you to reorder tracks in a Spotify playlist based on various sorting options. It uses the Spotify API to fetch the tracks and reorder them.
 
 ## Features
 
 - Reorders tracks in a Spotify playlist.
-- Sorts tracks by numbers first (ascending order) and then alphabetically.
+- Sorting options:
+  - Alphabetical order.
+  - By artist name.
+  - By album name.
 - Uses the Spotify API for authentication and playlist management.
 - Configuration settings are loaded from a `.env` file for security.
 
@@ -14,7 +16,7 @@ This Python script allows you to reorder tracks in a Spotify playlist based on a
 
 Before using the script, make sure you have:
 
-- A Spotify developer account and created an app to get your `CLIENT_ID` and `CLIENT_SECRET`.
+- A Spotify developer account and an app to get your `CLIENT_ID` and `CLIENT_SECRET`.
 - Python 3.x installed on your machine.
 - The following Python libraries installed:
   - `spotipy` for interacting with the Spotify API.
@@ -46,7 +48,7 @@ Before using the script, make sure you have:
     python main.py
     ```
 
-5. Enter the playlist ID when prompted, and the script will reorder the playlist for you.
+5. Enter the playlist URL when prompted, and choose a sorting option to reorder the playlist.
 
 ## Usage
 
@@ -56,13 +58,13 @@ Once you've set up the `.env` file with your credentials and installed the requi
 python main.py
 ```
 
-The script will prompt you to enter the Spotify playlist ID. After entering the playlist ID, it will reorder the tracks in the playlist based on the sorting logic (numbers first, then alphabetically).
+The script will prompt you to enter the Spotify playlist URL and select a sorting option. After entering the playlist details, it will reorder the tracks in the playlist accordingly.
 
 ## How it works
 
 - The script uses the Spotify API to fetch all the tracks from the specified playlist.
-- It sorts the tracks first by any numbers that appear at the beginning of the track name in ascending order, followed by alphabetical sorting for the rest.
-- The playlist is then reordered with the sorted tracks on Spotify.
+- It sorts the tracks based on the selected sorting option.
+- The playlist is then updated with the sorted tracks on Spotify.
 
 ## Contributing
 
@@ -70,7 +72,20 @@ Feel free to fork the repository and submit pull requests for any improvements o
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+This project is licensed under the **Creative Commons Attribution-NonCommercial (CC BY-NC)** license.
+
+### Terms of Use
+
+- You are free to:
+  - Copy, modify, distribute, and perform the work for non-commercial purposes.
+  
+- You must, at a minimum, provide proper attribution to the author (you), including the name of the author and a link to the original project.
+
+- You cannot:
+  - Sell this software, or sell any derivative works based on it.
+  - Use this software for commercial purposes.
+
+For more information, visit: [Creative Commons License](https://creativecommons.org/licenses/by-nc/4.0/).
 
 ## Acknowledgements
 
