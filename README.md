@@ -26,8 +26,8 @@ Before using the script, make sure you have:
 
 1. Clone this repository to your local machine:
     ```bash
-    git clone https://github.com/jaopdc11/spotify-playlist-organizer.git
-    cd spotify-playlist-organizer
+    git clone https://github.com/jaopdc11/spotify-sorter.git
+    cd spotify-sorter
     ```
 
 2. Install the required Python libraries:
@@ -45,7 +45,7 @@ Before using the script, make sure you have:
 
 4. Run the script:
     ```bash
-    python main.py
+    python core.py
     ```
 
 5. Enter the playlist URL when prompted, and choose a sorting option to reorder the playlist.
