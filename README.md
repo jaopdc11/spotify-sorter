@@ -79,7 +79,7 @@ This project is licensed under the **Creative Commons Attribution-NonCommercial 
 - You are free to:
   - Copy, modify, distribute, and perform the work for non-commercial purposes.
   
-- You must, at a minimum, provide proper attribution to the author (you), including the name of the author and a link to the original project.
+- You must, at a minimum, provide proper attribution to the author (me), including the name of the author and a link to the original project.
 
 - You cannot:
   - Sell this software, or sell any derivative works based on it.
